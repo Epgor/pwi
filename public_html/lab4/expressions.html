@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>Want a baloon?</title>
+	
+	<link rel="stylesheet" type="text/css" href="lab4_styl.css">
+	
+	 <script src="Script.js"></script> 
+	
+	</head>
+<body>
+
+<h1>JavaScript Calculator</h1>
+
+<div id="calculator" class="calculator">
+
+
+
+	<div id="buttonz" class="num">
+		    <div id="viewer" class="viewer"> </div>
+		  <button id="equals" class="equals" onclick="equalsNum()">=</button>
+		  <button onclick="takeNumber(0)">0</button>
+		  <button id="equals" class="equals" onclick="ResNum()">R.</button>
+		  <button onclick="takeNumber(1)">1</button>
+		  <button onclick="takeNumber(2)">2</button>
+		  <button onclick="takeNumber(3)">3</button>
+		  <button onclick="takeNumber(4)">4</button>
+		  <button onclick="takeNumber(5)">5</button>
+		  <button onclick="takeNumber(6)">6</button>
+		  <button onclick="takeNumber(7)">7</button>
+		  <button onclick="takeNumber(8)">8</button>
+		  <button onclick="takeNumber(9)">9</button>
+
+	</div>
+	<button class="ops" onclick="numMath(0)">-</button> 
+    <button class="ops" onclick="numMath(1)">+</button>
+	<button class="ops" onclick="numMath(2)">*</button>
+    <button class="ops" onclick="numMath(3)">/</button>
+	<button class="ops" onclick="numMath(10)">%</button>
+	<button class="ops" onclick="numMath(4)">pow</button>
+	<button class="ops" onclick="numMath(5)">sqrt</button>
+	<button class="ops" onclick="numMath(6)">sin</button>
+	<button class="ops" onclick="numMath(7)">cos</button>
+	<button class="ops" onclick="numMath(8)">tan</button>
+	<button class="ops" onclick="numMath(9)">cot</button>
+	
+	
+	<button onclick="saveMemory(0)">M0</button>
+	<button onclick="saveMemory(1)">M1</button>
+	<button onclick="saveMemory(2)">M2</button>
+	<button onclick="saveMemory(3)">M3</button>
+	<button onclick="saveMemory(4)">M4</button>
+	<button onclick="saveMemory(5)">M5</button>
+	<button onclick="saveMemory(6)">M6</button>
+	<button onclick="saveMemory(7)">M7</button>
+	<button onclick="saveMemory(8)">M8</button>
+	<button onclick="saveMemory(9)">M9</button>
+	
+	Jestem Polem do Ewaluacji
+	<input id="numb">
+	<button type="button" onclick="funcEval()">=</button>
+	<p>
+	Ważne info!
+	<button type="button" onclick="funcInform()">!</button>
+	</p>
+	
+	
+    
+	
+</div>
+
+
+</body>
+</html>

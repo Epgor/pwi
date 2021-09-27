@@ -1,0 +1,44 @@
+body {
+  background-color: lightgreen;
+}
+
+img {
+  width: 0px;
+  height: 0px;
+}
+
+
+.thing {
+    margin: 20px;
+    width: 270px;
+    height: 248px;
+    display: inline-block;
+    overflow: hidden; 
+    box-shadow: 10px 10px gray;
+}
+
+.photo {
+    width: 270px;
+    height: 248px;
+    object-fit: cover;
+}
+
+.img_txt {
+  position: absolute;
+  width: 270px;
+  margin-top: -20px;
+  background-color:  rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  z-index: 10000;
+}
+
+.thing img:hover {
+    transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    -o-transform:scale(1.1);
+	transition: all .2s ease-in-out;
+
+}
