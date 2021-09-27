@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudlflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"> //
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="all.css" rel="stylesheet">
+    <link rel="stylesheet" href="lab5_style.css">
+    <title>Lab5 - odtwarzacz</title>
+</head>
+
+<body>
+    <div class="container" id="video">
+        <div class="c-video">
+            <!-- You'll need to supply your own video URL. I was testing with the public domain movie, Big Buck Bunny -->
+            <video src="media/video.mp4" class="video"></video>
+            <div class="controls">
+                <div class="orange-bar">
+                    <div class="orange-juice">
+                        <!-- this will be the progress bar-->
+                    </div>
+                </div>
+                <div class="buttplay">
+                    <button id="play-pause"></button>
+
+                </div>
+                <div class="buttmute">
+
+                    <button id="mute" type="button" data-state="mute"></button>
+                </div>
+                <div class="buttvoldown">
+
+                    <button id="voldown" type="button"></button>
+                </div>
+                <div class="white-bar">
+                    <div class="white-juice">
+                        <!-- this will be the progress bar-->
+                    </div>
+                </div>
+                <div class="buttvolup">
+
+                    <button id="volup" type="button"></button>
+                </div>
+                <div class="buttfull">
+
+                    <button id="fullscreen" type="button"></button>
+                </div>
+                <div class="vid1">
+
+                    <button id="video1" type="button"></button>
+                </div>
+                <div class="vid2">
+
+                    <button id="video2" type="button"></button>
+                </div>
+                <div class="vid3">
+
+                    <button id="video3" type="button"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="lab5_js.js"></script>
+</body>
+</body>
+
+</html>

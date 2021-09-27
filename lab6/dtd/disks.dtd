@@ -1,0 +1,43 @@
+<!DOCTYPE disks
+[
+<!ELEMENT disks (audio_disk|video_disk)+>
+<!ATTLIST disks
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT audio_disk (autor,dlugosci_nagrania_min,kraj,gatunek)>
+<!ATTLIST audio_disk
+  xmlns CDATA #FIXED ''
+  id CDATA #REQUIRED>
+
+<!ELEMENT video_disk (flag,tytul,rok)>
+<!ATTLIST video_disk
+  xmlns CDATA #FIXED ''
+  id CDATA #REQUIRED>
+
+<!ELEMENT autor (#PCDATA)>
+<!ATTLIST autor
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT dlugosci_nagrania_min (#PCDATA)>
+<!ATTLIST dlugosci_nagrania_min
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT kraj (#PCDATA)>
+<!ATTLIST kraj
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT gatunek (#PCDATA)>
+<!ATTLIST gatunek
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT flag EMPTY>
+<!ATTLIST flag kategoria (dla dzieci | dla doroslych) "dla dzieci">
+
+<!ELEMENT tytul (#PCDATA)>
+<!ATTLIST tytul
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT rok (#PCDATA)>
+<!ATTLIST rok
+  xmlns CDATA #FIXED ''>
+]>

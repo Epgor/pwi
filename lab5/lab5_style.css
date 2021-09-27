@@ -1,0 +1,294 @@
+.container {
+    display: flex;
+    background-color: #ccc;
+    justify-content: left;
+    align-items: left;
+    height: 100vh;
+}
+
+.video {
+    width: 1080px;
+    height: 720px;
+}
+
+
+/* paly/pause */
+
+.buttplay {
+    padding: 10px;
+}
+
+.buttplay button {
+    background: none;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+}
+
+.buttplay button:before {
+    content: '\f04b';
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    font-size: 28px;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+.buttplay button.play:before {
+    content: '\f04b';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+
+.buttplay button.pause:before {
+    content: '\f04c';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+
+
+/* mute */
+
+.buttmute {
+    padding: 10px;
+}
+
+.buttmute button {
+    background: none;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+}
+
+.buttmute button:before {
+    content: '\f6a9';
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    font-size: 28px;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/* vol down */
+
+.buttvoldown {
+    padding: 10px;
+}
+
+.buttvoldown button {
+    background: none;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+}
+
+.buttvoldown button:before {
+    content: '\f027';
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    font-size: 28px;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/* vol up */
+
+.buttvolup {
+    padding: 10px;
+}
+
+.buttvolup button {
+    background: none;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+}
+
+.buttvolup button:before {
+    content: '\f028';
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    font-size: 28px;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/* full screen */
+
+.buttfull {
+    padding: 10px;
+}
+
+.buttfull button {
+    background: none;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+}
+
+.buttfull button:before {
+    content: '\f0b2';
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    font-size: 28px;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+.c-video {
+    width: 80%;
+    max-width: 1080px;
+    max-height: 720px;
+    position: relative;
+    overflow: hidden;
+}
+
+.c-video:hover .controls {
+    transform: translateY(0);
+}
+
+.controls {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.7);
+    transform: translateY(100%) translateY(-5px);
+    transition: all .2s;
+}
+
+
+/* Progress bar container */
+
+.orange-bar {
+    height: 10px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+
+/* This represents the progress bar */
+
+.orange-juice {
+    height: 10px;
+    /* width: 100px;  */
+    /* background-color: orangered; */
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.white-bar {
+    height: 50px;
+    top: 20;
+    width: 100px;
+    background-color: rgba(156, 151, 151, 0.85);
+}
+
+
+/* This represents the progress bar */
+
+.white-juice {
+    height: 50px;
+    top: 20;
+    width: 100px;
+    /* background-color: orangered; */
+    background-color: rgba(52, 54, 180, 0.877);
+}
+
+
+/* video 1 */
+
+.vid1 {
+    padding: 10px;
+}
+
+.vid1 button {
+    background: none;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+}
+
+.vid1 button:before {
+    content: '\f717';
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    font-size: 28px;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/* video 2 */
+
+.vid2 {
+    padding: 10px;
+}
+
+.vid2 button {
+    background: none;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+}
+
+.vid2 button:before {
+    content: '\f197';
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    font-size: 28px;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/* video 3 */
+
+.vid3 {
+    padding: 10px;
+}
+
+.vid3 button {
+    background: none;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+}
+
+.vid3 button:before {
+    content: '\f5b6';
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    font-size: 28px;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+}
