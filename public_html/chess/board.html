@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Szachy</title>
+    <link rel="stylesheet" type="text/css" href="Chess.css" />
+</head>
+<body>
+    <div class="board">
+        <table>
+            <tr>
+                <th class="outer"></th>
+                <th class="outer">1</th>
+                <th class="outer">2</th>
+                <th class="outer">3</th>
+                <th class="outer">4</th>
+                <th class="outer">5</th>
+                <th class="outer">6</th>
+                <th class="outer">7</th>
+                <th class="outer">8</th>
+                <th class="outer"></th>
+            </tr>
+            <tr>
+                <th class="outer">A</th>
+                <th id="A8" class="white"></th>
+                <th id="A7" class="red"></th>
+                <th id="A6" class="white"></th>
+                <th id="A5" class="red"></th>
+                <th id="A4" class="white"></th>
+                <th id="A3" class="red"></th>
+                <th id="A2" class="white"></th>
+                <th id="A1" class="red"></th>
+                <th class="outer">A</th>
+            </tr>
+            <tr>
+                <th class="outer">B</th>
+                <th id="B8" class="red"></th>
+                <th id="B7" class="white"></th>
+                <th id="B6" class="red"></th>
+                <th id="B5" class="white"></th>
+                <th id="B4" class="red"></th>
+                <th id="B3" class="white"></th>
+                <th id="B2" class="red"></th>
+                <th id="B1" class="white"></th>
+                <th class="outer">B</th>
+            </tr>
+            <tr>
+                <th class="outer">C</th>
+                <th id="C8" class="white"></th>
+                <th id="C7" class="red"></th>
+                <th id="C6" class="white"></th>
+                <th id="C5" class="red"></th>
+                <th id="C4" class="white"></th>
+                <th id="C3" class="red"></th>
+                <th id="C2" class="white"></th>
+                <th id="C1" class="red"></th>
+                <th class="outer">C</th>
+            </tr>
+            <tr>
+                <th class="outer">D</th>
+                <th id="D8" class="red"></th>
+                <th id="D7" class="white"></th>
+                <th id="D6" class="red"></th>
+                <th id="D5" class="white"></th>
+                <th id="D4" class="red"></th>
+                <th id="D3" class="white"></th>
+                <th id="D2" class="red"></th>
+                <th id="D1" class="white"></th>
+                <th class="outer">D</th>
+            </tr>
+            <tr>
+                <th class="outer">E</th>
+                <th id="E8" class="white"></th>
+                <th id="E7" class="red"></th>
+                <th id="E6" class="white"></th>
+                <th id="E5" class="red"></th>
+                <th id="E4" class="white"></th>
+                <th id="E3" class="red"></th>
+                <th id="E2" class="white"></th>
+                <th id="E1" class="red"></th>
+                <th class="outer">E</th>
+            </tr>
+            <tr>
+                <th class="outer">F</th>
+                <th id="F8" class="red"></th>
+                <th id="F7" class="white"></th>
+                <th id="F6" class="red"></th>
+                <th id="F5" class="white"></th>
+                <th id="F4" class="red"></th>
+                <th id="F3" class="white"></th>
+                <th id="F2" class="red"></th>
+                <th id="F1" class="white"></th>
+                <th class="outer">F</th>
+            </tr>
+            <tr>
+                <th class="outer">G</th>
+                <th id="G8" class="white"></th>
+                <th id="G7" class="red"></th>
+                <th id="G6" class="white"></th>
+                <th id="G5" class="red"></th>
+                <th id="G4" class="white"></th>
+                <th id="G3" class="red"></th>
+                <th id="G2" class="white"></th>
+                <th id="G1" class="red"></th>
+                <th class="outer">G</th>
+            </tr>
+            <tr>
+                <th class="outer">H</th>
+                <th id="H8" class="red"></th>
+                <th id="H7" class="white"></th>
+                <th id="H6" class="red"></th>
+                <th id="H5" class="white"></th>
+                <th id="H4" class="red"></th>
+                <th id="H3" class="white"></th>
+                <th id="H2" class="red"></th>
+                <th id="H1" class="white"></th>
+                <th class="outer">H</th>
+            </tr>
+            <tr>
+                <th class="outer"></th>
+                <th class="outer">1</th>
+                <th class="outer">2</th>
+                <th class="outer">3</th>
+                <th class="outer">4</th>
+                <th class="outer">5</th>
+                <th class="outer">6</th>
+                <th class="outer">7</th>
+                <th class="outer">8</th>
+                <th class="outer"></th>
+            </tr>
+        </table>
+         <button onclick="LoadXMLDoc()">Load Form File</button>
+        <textarea id="TextField" rows="10" cols="50">
+            &lt;board&gt;
+                &lt;element&gt;
+                    &lt;type&gt;&lt;/type&gt;
+                    &lt;pos&gt;&lt;/pos&gt;
+                    &lt;color&gt;&lt;/color&gt;
+                &lt;/element&gt;
+            &lt;/board&gt;
+        </textarea>
+        <button onclick="LoadTextField()">Load Form Text</button>
+        <button onclick="Clear()">Clear</button>
+    </div>
+
+    <script src="Chess.js"></script> 
+</body>
+</html>

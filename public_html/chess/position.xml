@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE disks SYSTEM "position.xsd">
+<board>
+<element>
+        <type>pionek</type>
+        <pos>G1</pos>
+        <color>bialy</color>
+<element>
+    </element>
+        <type>pionek</type>
+        <pos>G2</pos>
+        <color>bialy</color>
+<element>
+    </element>
+        <type>pionek</type>
+        <pos>G3</pos>
+        <color>bialy</color>
+<element>
+    </element>
+        <type>pionek</type>
+        <pos>G4</pos>
+        <color>bialy</color>
+<element>
+    </element>
+        <type>pionek</type>
+        <pos>G5</pos>
+        <color>bialy</color>
+<element>
+    </element>
+        <type>pionek</type>
+        <pos>G6</pos>
+        <color>bialy</color>
+<element>
+    </element>
+        <type>pionek</type>
+        <pos>G7</pos>
+        <color>bialy</color>
+<element>
+    </element>
+        <type>pionek</type>
+        <pos>G8</pos>
+        <color>bialy</color>
+<element>
+    </element>
+        <type>wieza</type>
+        <pos>H1</pos>
+        <color>bialy</color>
+<element>
+    </element>
+        <type>skoczek</type>
+        <pos>H2</pos>
+        <color>bialy</color>
+<element>
+    </element>
+        <type>goniec</type>
+        <pos>H3</pos>
+        <color>bialy</color>
+<element>
+    </element>
+        <type>krolowa</type>
+        <pos>H4</pos>
+        <color>bialy</color>
+<element>
+    </element>
+        <type>krol</type>
+        <pos>H5</pos>
+        <color>bialy</color>
+<element>
+    </element>
+        <type>goniec</type>
+        <pos>H6</pos>
+        <color>bialy</color>
+<element>
+    </element>
+        <type>skoczek</type>
+        <pos>H7</pos>
+        <color>bialy</color>
+<element>
+    </element>
+        <type>wieza</type>
+        <pos>H8</pos>
+        <color>bialy</color>
+    </element>
+</board>

@@ -1,0 +1,16 @@
+
+   <vcards>
+    <vcard>
+        <n>
+            <surname>Bill</surname>
+            <given>Gates</given>
+            <prefix>Mr.</prefix>
+        </n>
+        <fn>
+            <text>Bill Gates</text>
+        </fn>
+        <bday>
+            <date>13.02.2002</date>
+        </bday>
+    </vcard>
+</vcards>

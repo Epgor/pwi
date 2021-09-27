@@ -1,0 +1,16 @@
+
+   <vcards>
+    <vcard>
+        <n>
+            <surname>Jobs</surname>
+            <given>Steve</given>
+            <prefix>Mr.</prefix>
+        </n>
+        <fn>
+            <text>Linus Torvalds</text>
+        </fn>
+        <bday>
+            <date>17.11.1942</date>
+        </bday>
+    </vcard>
+</vcards>

@@ -1,0 +1,26 @@
+body{
+    background-color: aqua;
+}
+
+.person{
+    margin-bottom: 1rem;
+}
+
+.nazwisko{
+    display:inline-block;
+    font-size: 3rem;
+    background-color: orangered;
+    border-radius: 6px;
+}
+
+.dane{
+    display:inline-block;
+    background-color: violet;
+    border-radius: 6px;
+    color: black;
+    font-size: 1rem;
+}
+
+button{
+    background-color: lightgray;
+}

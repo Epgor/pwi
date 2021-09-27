@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="disks">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element ref="audio_disk"/>
+        <xs:element ref="video_disk"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="audio_disk">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="autor"/>
+        <xs:element ref="dlugosci_nagrania_min"/>
+        <xs:element ref="kraj"/>
+        <xs:element ref="gatunek"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="autor" type="xs:string"/>
+  <xs:element name="dlugosci_nagrania_min" type="xs:NMTOKEN"/>
+  <xs:element name="kraj" type="xs:NCName"/>
+  <xs:element name="gatunek" type="xs:NCName"/>
+  <xs:element name="video_disk">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="kategoria"/>
+        <xs:element ref="tytul"/>
+        <xs:element ref="rok"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="kategoria" type="xs:string"/>
+  <xs:element name="tytul" type="xs:string"/>
+  <xs:element name="rok" type="xs:integer"/>
+</xs:schema>

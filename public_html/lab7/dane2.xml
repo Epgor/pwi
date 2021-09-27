@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="dane2.xsl"?>
+<catalog>
+  <car>
+    <marka>BMW</marka>
+    <model>M3</model>
+    <typ>Sedan</typ>
+    <rocznik>2010</rocznik>
+    <silnik>3.0</silnik>
+    <paliwo>Diesel</paliwo>
+    <pierwsza_rej>2010-09-24</pierwsza_rej>
+  </car>
+  <car>
+    <marka>Volkswagen</marka>
+    <model>Golf 4</model>
+    <typ>Hatchback</typ>
+    <rocznik>2003</rocznik>
+    <silnik>1.6</silnik>
+    <paliwo>Benzyna</paliwo>
+    <pierwsza_rej>2003-03-01</pierwsza_rej>
+  </car>
+    <car>
+    <marka>Polonez</marka>
+    <model>Caro</model>
+    <typ>Combi</typ>
+    <rocznik>2000</rocznik>
+    <silnik>1.2</silnik>
+    <paliwo>Benzyna</paliwo>
+    <pierwsza_rej>2001-03-02</pierwsza_rej>
+  </car>
+    <car>
+    <marka>Skoda</marka>
+    <model>Octavia 2</model>
+    <typ>Sedan</typ>
+    <rocznik>2004</rocznik>
+    <silnik>2.0</silnik>
+    <paliwo>Diesel</paliwo>
+    <pierwsza_rej>2005-01-02</pierwsza_rej>
+  </car>
+    <car>
+    <marka>Audi</marka>
+    <model>A4 B5</model>
+    <typ>Cabriolet</typ>
+    <rocznik>2002</rocznik>
+    <silnik>1.8</silnik>
+    <paliwo>Benzyna + LPG</paliwo>
+    <pierwsza_rej>2003-03-03</pierwsza_rej>
+  </car>
+    <car>
+    <marka>Fiat</marka>
+    <model>Grande Punto</model>
+    <typ>Hatchback</typ>
+    <rocznik>2006</rocznik>
+    <silnik>1.4</silnik>
+    <paliwo>Benzyna</paliwo>
+    <pierwsza_rej>2007-05-12</pierwsza_rej>
+  </car>
+    <car>
+    <marka>BMW</marka>
+    <model>E 46</model>
+    <typ>Coupe</typ>
+    <rocznik>1998</rocznik>
+    <silnik>2.0</silnik>
+    <paliwo>Hybryda</paliwo>
+    <pierwsza_rej>1999-09-09</pierwsza_rej>
+  </car>
+    <car>
+    <marka>Volkswagen</marka>
+    <model>Passat B5</model>
+    <typ>Combi</typ>
+    <rocznik>2002</rocznik>
+    <silnik>1.9</silnik>
+    <paliwo>Diesel</paliwo>
+    <pierwsza_rej>2018-01-04</pierwsza_rej>
+  </car>
+    <car>
+    <marka>Toyota</marka>
+    <model>Auris</model>
+    <typ>Hatchback</typ>
+    <rocznik>2007</rocznik>
+    <silnik>1.6</silnik>
+    <paliwo>Benzyna</paliwo>
+    <pierwsza_rej>2008-04-04</pierwsza_rej>
+  </car>
+    <car>
+    <marka>Fiat</marka>
+    <model>Multipla</model>
+    <typ>Minivan</typ>
+    <rocznik>2005</rocznik>
+    <silnik>4.2</silnik>
+    <paliwo>Benzyna</paliwo>
+    <pierwsza_rej>2006-10-11</pierwsza_rej>
+  </car>
+  
+</catalog>
+

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE disks SYSTEM "disks.xsd">
+
+<disks>
+	<audio_disk id="001">
+		<autor>Jones J.</autor>
+		<dlugosci_nagrania_min>1:44</dlugosci_nagrania_min>
+		<kraj>USA</kraj>
+		<gatunek>Folk</gatunek>
+	</audio_disk>
+	<video_disk id="002">
+		<kategoria>dla dzieci</kategoria>
+		<tytul>Pan Balwanek</tytul>
+		<rok>1992</rok>
+	</video_disk>
+	<audio_disk id="003">
+		<autor>Mini Mike</autor>
+		<dlugosci_nagrania_min>1:59</dlugosci_nagrania_min>
+		<kraj>USA</kraj>
+		<gatunek>RAP</gatunek>
+	</audio_disk>
+	<video_disk id="004">
+		<kategoria>dla dzieci</kategoria>
+		<tytul>swierszczyk dla opornych</tytul>
+		<rok>2010</rok>
+	</video_disk>
+	<audio_disk id="005">
+		<autor>Ras Put In</autor>
+		<dlugosci_nagrania_min>6:06</dlugosci_nagrania_min>
+		<kraj>ZSRR</kraj>
+		<gatunek>Electro</gatunek>
+	</audio_disk>
+	<video_disk id="006">
+		<kategoria>dla dzieci</kategoria>
+		<tytul>zwirek dla kota</tytul>
+		<rok>2020</rok>
+	</video_disk>
+	<audio_disk id="007">
+		<autor>Janusz Korwin Mikke</autor>
+		<dlugosci_nagrania_min>59:59</dlugosci_nagrania_min>
+		<kraj>Polska</kraj>
+		<gatunek>RAP</gatunek>
+	</audio_disk>
+	<video_disk id="008">
+		<kategoria>dla dzieci</kategoria>
+		<tytul>Jak radzic sobie z rurkowcami</tytul>
+		<rok>2010</rok>
+	</video_disk>
+	<audio_disk id="009">
+		<autor>Chuck Norris</autor>
+		<dlugosci_nagrania_min>3:44</dlugosci_nagrania_min>
+		<kraj>USA</kraj>
+		<gatunek>Country</gatunek>
+	</audio_disk>
+	<video_disk id="010">
+			<kategoria>dla dzieci</kategoria>
+		<tytul>Wszystkie sciezki prowadza na odwyk</tytul>
+		<rok>2002</rok>
+	</video_disk>
+</disks>
